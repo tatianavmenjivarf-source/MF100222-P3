@@ -1,0 +1,14 @@
+rules:
+  collectionRules:
+    f2z7stpg:
+      creat:
+        users: {}
+      read:
+        users: {}
+      update:
+        users: {}
+      delete:
+        users: {}
+      deleteWhenUserIsDeleted: true
+storageRules:
+  excludeFromStorageRules: false

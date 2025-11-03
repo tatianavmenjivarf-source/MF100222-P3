@@ -1,0 +1,18 @@
+name: "Well-Health "
+authPageInfo:
+  homePageNodeKeyRef:
+    key: Scaffold_j8kh966a
+  signInPageNodeKeyRef:
+    key: Scaffold_m1i8np2q
+appSettings:
+  advancedSettings:
+    webBuildSettings: {}
+routingSettings:
+  enableRouting: true
+  pagesAreSubroutesOfRoot: false
+initialPageKeyRef:
+  key: Scaffold_j8kh966a
+allAppNames:
+  appNames:
+    PROD:
+      packageName: com.mycompany.wellhealth

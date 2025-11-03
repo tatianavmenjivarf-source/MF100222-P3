@@ -1,0 +1,26 @@
+active: true
+firebase:
+  createUserDocument:
+    collectionIdentifier:
+      name: Users
+      key: f2z7stpg
+    write:
+      updates:
+        email:
+          fieldIdentifier:
+            name: email
+          inputValue: {}
+        uid:
+          fieldIdentifier:
+            name: uid
+          inputValue: {}
+firebaseConfigFileInfos:
+  - androidPath: users/WDHKkpOrGJgigoUtwXIu5aDAhUK2/projects/well-health-nu825i/configs/pb4x0cw2ifde/google-services.json
+    iosPath: users/WDHKkpOrGJgigoUtwXIu5aDAhUK2/projects/well-health-nu825i/configs/x0njx8tlj97b/GoogleService-Info.plist
+    webConfig: "\/\/ Copy and paste this into your JavaScript code to initialize the Firebase SDK.\n\/\/ You will also need to load the Firebase SDK.\n\/\/ See https:\/\/firebase.google.com\/docs\/web\/setup for more details.\n\nfirebase.initializeApp({\n  \"projectId\": \"well-health-nu825i\",\n  \"appId\": \"1:868694576347:web:6c37546a27e27ecdbb50fe\",\n  \"storageBucket\": \"well-health-nu825i.firebasestorage.app\",\n  \"apiKey\": \"AIzaSyD5x3QAFatVA8lZWuGGijLhBqDY5gYxwyo\",\n  \"authDomain\": \"well-health-nu825i.firebaseapp.com\",\n  \"messagingSenderId\": \"868694576347\",\n  \"measurementId\": \"G-STH6XVQS4E\",\n  \"projectNumber\": \"868694576347\",\n  \"version\": \"2\"\n});\n"
+    androidPackageNames:
+      - com.mycompany.wellhealth
+    iosBundleId: com.mycompany.wellhealth
+    environment:
+      name: Production
+      key: PROD
